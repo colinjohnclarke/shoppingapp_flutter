@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                 quarterTurns: 3,
                 child: Row(children: [
                   TextWidget(text: 'On Sale', color: Colors.red, textSize: 22),
-                  Icon(Icons.discount, color: Colors.red,)
+                  Icon(Icons.discount, color: Colors.blue,)
                   
 
                 ],),
