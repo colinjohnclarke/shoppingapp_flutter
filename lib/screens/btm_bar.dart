@@ -13,13 +13,12 @@ class BottomBarScreen extends StatefulWidget {
 
 class _BottomBarScreenState extends State<BottomBarScreen> {
 
-
-  int _selectedIndex = 1;
+  int _selectedIndex = 2;
 
    static List <Map<String, dynamic>>  _pages = [
     {'page':  HomeScreen(), 'title': 'Home Screen'  },
     {'page': CategoriesScreen() , 'title': 'Categories Screen'  },
-    {'page':  CartScreen(), 'title': 'Cart Screen'  },
+    {'page':  CartScreen(), 'title': 'Cart Screensdfjdjik'  },
     {'page':  UserScreen(), 'title': 'User Screen'  },
 
   ];
@@ -60,7 +59,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(_selectedIndex != 3 ? Icons.verified_user_outlined : Icons.verified_user_rounded),
-            label: "Cart",
+            label: "User Screen",
             backgroundColor: Colors.blueGrey ,
           ),
         ],
